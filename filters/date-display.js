@@ -1,7 +1,3 @@
-module.exports = (date) =>
-  new Date(date).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'UTC'
-  });
+const { format } = require('date-fns');
+
+module.exports = (date) => format(date, 'yyyy/MM/dd');
