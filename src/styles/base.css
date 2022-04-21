@@ -139,21 +139,21 @@ hr {
   @apply font-bold whitespace-nowrap text-center;
 }
 
-.next-page::after {
+/* .next-page::after {
   content: ' ►';
 }
 
 .previous-page::before {
   content: '◄ ';
-}
+} */
 
-.first-page::before {
+/* .first-page::before {
   content: '| ';
 }
 
 .last-page::after {
   content: ' |';
-}
+} */
 
 .top-notice {
   @apply sticky top-0 flex justify-center bg-blue-600 py-1 -mt-1 text-sm;
