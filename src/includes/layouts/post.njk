@@ -26,19 +26,19 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
         {% if date %}
             {% if updatedDate and (date|string) !== (updatedDate|string) %}
               <p class="text-sm italic">Last updated on
-                    <span datetime="{{ date }}">{{ updatedDate | dateDisplay }}</span>. Created on
+                    <span datetime="{{ date }}">{{ updatedDate | dateDisplay }}</span>.
                     <span datetime="{{ date }}">{{ date | dateDisplay }}</span>.</p>
             {% else %}
-                <p class="text-sm italic">Created on
+                <p class="text-sm italic">
                     <span datetime="{{ date }}">{{ date | dateDisplay }}</span>.</p>
             {% endif %}
         {% endif %}
 
-        <div class="content post">
+        <div class="content post text-justify">
             {% if content | toc %}
                 <hr />
 
-                <h3>Table of Contents</h3>
+                <h3>目录</h3>
 
                 {{ content | toc | safe }}
 
