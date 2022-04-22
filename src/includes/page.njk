@@ -9,6 +9,7 @@
     <meta itemprop="name" content="{% if metaTitle %}{{ metaTitle }}{{ ' | '}}{% endif %}{% if title %}{{ title }}{{ ' | '}}{% endif %}{% if site.name %}{{ site.name }}{% endif %}">
     <meta itemprop="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
 
+    <!--
     {# Twitter #}
     <meta name="twitter:title" content="{% if metaTitle %}{{ metaTitle }}{{ ' | '}}{% endif %}{% if title %}{{ title }}{{ ' | '}}{% endif %}{% if site.name %}{{ site.name }}{% endif %}">
     <meta name="twitter:card" content="summary_large_image">
@@ -16,7 +17,9 @@
     <meta name="twitter:site" content="{{ site.author.handle }}">
     <meta name="twitter:creator" content="{{ site.author.handle }}">
     <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseUrl }}{{ site.images.twitter }}">
+    -->
 
+    <!--
     {# Open Graph #}
     <meta name="og:title" content="{% if metaTitle %}{{ metaTitle }}{{ ' | '}}{% endif %}{% if title %}{{ title }}{{ ' | '}}{% endif %}{% if site.name %}{{ site.name }}{% endif %}">
     <meta name="og:description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.description }}{% endif %}">
@@ -25,6 +28,7 @@
     <meta name="og:site_name" content="{{ site.name }}">
     <meta name="og:locale" content="en_GB">
     <meta name="og:type" content="website">
+    -->
 
     <link rel="icon" type="image/x-icon" href="{{ site.baseUrl }}favicon.ico" />
 

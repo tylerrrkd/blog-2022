@@ -7,10 +7,7 @@
     "handle": "@Tylerrrkd",
     "name": "TYLER Lin"
   },
-  "images": {
-    "twitter": "twitter.jpg",
-    "og": "og.jpg"
-  },
+  "images": {},
   "feed": {
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
