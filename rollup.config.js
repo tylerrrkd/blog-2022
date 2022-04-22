@@ -16,6 +16,7 @@ export default {
   },
   plugins: [
     replace({
+      preventAssignment: true,
       DEV_MODE: dev,
     }),
     svg(),
