@@ -41,31 +41,31 @@ a {
 }
 
 h1 {
-  @apply text-5xl;
-}
-
-h2 {
-  @apply text-3xl;
-}
-
-h3 {
   @apply text-2xl;
 }
 
-h4 {
+h2 {
   @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+h4 {
+  @apply text-base;
 }
 
 a {
   @apply font-bold;
 }
 
-a:hover {
-  /* @apply underline; */
-}
+/* a:hover {
+  @apply underline;
+} */
 
 p {
-  @apply text-lg my-2;
+  @apply text-base my-2;
 }
 
 pre {
@@ -121,7 +121,7 @@ hr {
 
 .content > ol > li,
 .content > ul > li {
-  @apply text-lg mr-12 ml-12 pr-2 pl-2;
+  @apply text-base mr-12 ml-12 pr-2 pl-2;
 }
 
 .content > p {
