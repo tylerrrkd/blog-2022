@@ -25,12 +25,12 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
 
         {% if date %}
             {% if updatedDate and (date|string) !== (updatedDate|string) %}
-              <p class="text-sm italic">Last updated on
-                    <span datetime="{{ date }}">{{ updatedDate | dateDisplay }}</span>.
+              <p class="text-sm italic">上次更新
+                    <span datetime="{{ date }}">{{ updatedDate | dateDisplay }}</span>, 创建于
                     <span datetime="{{ date }}">{{ date | dateDisplay }}</span>.</p>
             {% else %}
                 <p class="text-sm italic">
-                    <span datetime="{{ date }}">{{ date | dateDisplay }}</span>.</p>
+                    创建于 <span datetime="{{ date }}">{{ date | dateDisplay }}</span>.</p>
             {% endif %}
         {% endif %}
 
@@ -50,14 +50,14 @@ permalink: "{% if path %}{{ path | slug }}{% else %}{{'/post/'}}{{ title | slug 
 
         {%- set nextPost = collections['postsWithoutDrafts'] | getNextCollectionItem(page) %}
         {%- if nextPost %}
-            <p class="uppercase text-xs mt-6">Next</p>
+            <p class="uppercase text-xs mt-6">上一篇</p>
             <p class="font-bold mb-2">
                 <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
             </p>
         {% endif %}
         {%- set previousPost = collections['postsWithoutDrafts'] | getPreviousCollectionItem(page) %}
         {%- if previousPost %}
-            <p class="uppercase text-xs mt-6">Previous</p>
+            <p class="uppercase text-xs mt-6">下一篇</p>
 
             <p class="font-bold">
                 <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a>

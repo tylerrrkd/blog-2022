@@ -17,14 +17,14 @@
         <div class="flex justify-between mx-auto w-full">
             {% if page.url !== pagination.href.first %}
                 <div class="mx-auto mb-4">
-                    <a class="first-page md:mb-2" href="{{ pagination.href.first | url }}">首页</a>
+                    <a class="first-page md:mb-2" href="{{ pagination.href.first | url }}">最前页</a>
                 </div>
 
             {% endif %}
 
             {% if page.url !== pagination.href.last %}
                 <div class="mx-auto">
-                    <a class="last-page" href="{{ pagination.href.last | url }}">末页</a>
+                    <a class="last-page" href="{{ pagination.href.last | url }}">最末页</a>
                 </div>
             {% endif %}
         </div>
