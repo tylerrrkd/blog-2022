@@ -12,6 +12,8 @@ path: '/'
 
 乐于挑战和钻研新技术，目前是一名前端工程师，我很享受思考如何跟用户交互的过程。
 
+偶尔扫扫街摄影，喜欢那些能一眼就看出故事的照片。
+
 空闲时间热爱田径，曾带领校田径队夺得多个省级田径比赛奖项（🏆🥈🥉），田径让我有了更清晰的目标感。
 
 **喜欢学习**
@@ -24,8 +26,16 @@ path: '/'
 
 2015 年，为学校田径队拍摄了一支微电影 [《再一次奔跑》](https://v.youku.com/v_show/id_XOTUyNTIzMjQ0.html)，担任摄像、剪辑、演员等多个位置。
 
-2016 - 2017 年尝试创业，成立[广州栖木信息科技有限公司](https://www.qcc.com/firm/df7ed95eaab5afbe89c9b0753e031b16.html)，获得“赢在仲园”等多个创业大赛奖项，成功入驻学校孵化器，获得学校创业资金支持。
+2016 - 2017 年尝试创业，成立[广州栖木信息科技有限公司](https://www.qcc.com/firm/df7ed95eaab5afbe89c9b0753e031b16.html)。担任核心负责人，推进团队游戏项目产出。获得“赢在仲园”等多个创业大赛奖项，成功入驻学校孵化器，获得学校创业资金支持。
 
 2018 - 2022 年，在网迅、卓越教育集团、虎牙直播工作和学习。
 
-最近在学习和关注 Web 3.0、挖掘和参与一些令人兴奋的 Defi/GameFi 项目。（这个博客也部署在 IPFS 上）。
+最近在学习和关注 Web 3.0、挖掘和参与一些令人兴奋的 Defi / GameFi 项目。（这个博客也部署在 IPFS 上）。
+
+我的 [Github](https://github.com/tylerrrkd) / [Twitter](https://twitter.com/tylerrrkd) / [Instagram](https://www.instagram.com/tylerrrkd/)
+
+**相关项目**
+
+- [房价预测](https://github.com/tylerrrkd/house-price-visualization)
+- [乾隆不能说的秘密出行(H5)(Wechat Enviroment)](http://t1.miaoxing100.cn/H5/xy_emperor/index.jsp)
+- [小雪 | 说出你的心声(H5)](https://h5.zhongguowangshi.com/h5/jqbb2019/index.html)
