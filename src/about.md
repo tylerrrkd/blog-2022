@@ -34,7 +34,7 @@ path: '/'
 
 我的 [Github](https://github.com/tylerrrkd) / [Twitter](https://twitter.com/tylerrrkd) / [Instagram](https://www.instagram.com/tylerrrkd/)
 
-**相关项目**
+**我开发的那些有趣项目**
 
 - [房价预测](https://github.com/tylerrrkd/house-price-visualization)
 - [乾隆不能说的秘密出行(H5)(Wechat Enviroment)](http://t1.miaoxing100.cn/H5/xy_emperor/index.jsp)
