@@ -1,16 +1,14 @@
 ---
 layout: post
-title: Webpack 优化配置
-excerpt: 记录一次 Webpack 优化配置过程
+title: 旧项目升级 Webpack 与优化
+excerpt: 记录一次将迭代超过4年的旧项目升级到 Webpack 4 并优化的过程
 date: 2019-09-17
 tags:
   - post
   - skill
 ---
 
-> 记录一次将 atool-build 升级并迁移至 Webpack 4 的过程
-
-### 原始配置`atool-build`
+### Before | 原始配置`atool-build`
 
 > 升级前：该项目编译时间为 5 - 7 分钟，编译后代码体积庞大(40+Mb)。
 
@@ -144,7 +142,7 @@ module.exports = function (webpackConfig, env) {
 };
 ```
 
-### 优化后的配置
+### After | 优化后的配置
 
 > 升级后：初次编译时间维持在 40 秒左右，缓存后编译时间仅需 20 秒，编译后代码体积减少了 70%(10+Mb)。
 
